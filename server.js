@@ -11,5 +11,5 @@ app.get('/', (req, res) => {
 const PORT = process.env.PORT || 8001
 
 app.listen(PORT, () => {
-    console.log('Express server is listening on port 8001!');
+    console.log(`Express server is listening on port ${PORT}!`);
 });
